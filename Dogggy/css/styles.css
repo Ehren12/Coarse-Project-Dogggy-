@@ -1,0 +1,206 @@
+body{
+    font-family: 'Baloo 2', cursive;
+}
+
+#title{
+    background-color: #0f4c75;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3%;
+    padding-bottom: 12%;
+}
+
+h1{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Noto Sans';
+}
+
+h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Baloo 2';
+}
+
+
+/* Nav Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Montez', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+/* buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+    position: absolute;
+    width: 60%;
+    transform: rotate(25deg);
+    right: 30%;
+}
+
+@media (max-width: 1299px){
+    .title-image{
+        transform: rotate(0);
+        position: static;
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/* feutures section */
+
+#features{
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+    z-index: 1;
+}
+
+
+
+/* feuture boxes */
+
+.first-feature{      
+    margin: 10% 3%;
+
+}
+
+.second-feature{
+    margin: 10% 3%;
+}
+
+.third-feature{
+    margin: 10% 3%;
+}
+
+/* Icon */
+
+.icon-class{
+    color: #0f6c95;
+    font-size: 7rem;
+    margin-bottom: 1rem;
+}
+
+.icon-class:hover{
+    color: #0f4c75;
+    font-size: 8rem;
+    margin-bottom: 1rem;
+}
+
+/* Testimonials */
+
+#testimonials{
+    background-color: #0f6c95;
+    position: absolute;
+    text-align: center;
+    font-family: 'Noto Sans';
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background-color: #0f6c95;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding:  100px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.pricing-deck{
+    margin-top: 5%;
+}
+
+.sign-up-btn{
+    background-color: #0f6c95;
+    color: #fff;
+}
+
+.sign-up-btn:hover{
+    background-color: #0f4c75;
+    color: #fff;
+}
+
+.sign-up-sp-btn{
+    color: #0f6c95;
+    border-color: #0f6c95;
+}
+
+.sign-up-sp-btn:hover{
+    color: #fff;
+    background-color: #0f6c95;
+}
+
+.card{
+    text-align: center;
+    margin: 20px;
+}
+
+#cta{
+    background-color: #0f6c95;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+}
+
+#footer{
+    background-color: #0f6c95;
+    text-align: center;
+    color: #fff;
+}
